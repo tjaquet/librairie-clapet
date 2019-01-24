@@ -66,7 +66,8 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size :64px;
   line-height: 1;
 }
 
@@ -196,8 +197,10 @@ button {
 }
 
 .chapo {
+  width: 960px;
+  height: 116px;
   font-size: 25px;
-  font-style: WorkSans;
+  font-style: 'Work Sans', sans-serif;
   text-align : center;
 }
 
@@ -257,7 +260,8 @@ button {
 
 .header__subtitle {
   margin: 0;
-  font-size: 3.2em;
+  font-family : 'Montserrat-ExtraLight', sans-serif;
+  font-size: 42px;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
 }
@@ -332,14 +336,16 @@ button {
 }
 
 .honey-pot__title {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
-  font-size: 2em;
+  font-size: 26px;
   font-weight: bold;
 }
 
 .honey-pot__subtitle {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
-  font-size: 1.6em;
+  font-size: 22px;
   font-weight: 200;
 }
 
@@ -373,21 +379,24 @@ button {
 }
 
 .news__date {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
-  font-size: 1.8em;
+  font-size: 18px;
   color: #e8a27d;
 }
 
 .news__title {
+  font-family: 'Montserrat', sans-serif;
   margin: 0 0 15px;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 24px;
   line-height: 1.4;
 }
 
 .news__text {
+  font-family: 'Work Sans', sans-serif;
   margin: 0;
-  font-size: 1.4em;
+  font-size: 20px;
   line-height: 1.4;
 }
 
