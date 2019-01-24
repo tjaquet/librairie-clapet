@@ -66,15 +66,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat;
-  font-size: 64px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--white);
+  font-family: Helvetica, Arial, sans-serif;
   line-height: 1;
 }
 
