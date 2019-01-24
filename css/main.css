@@ -10,13 +10,13 @@ body {
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Worksans, Arial, sans-serif;
   font-weight: 400;
   color: #303044;
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 1.4em;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -196,7 +196,9 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  font-size: 25px;
+  font-style: WorkSans;
+  text-align : center;
 }
 
 .full-width {
