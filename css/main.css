@@ -91,10 +91,12 @@ button {
 */
 
 .container {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
   width: 960px;
   max-width: 100%;
+  text-align: center;
 }
 
 .text-container {
@@ -203,6 +205,9 @@ button {
   text-align : center;
   padding-top: 85px;
   padding-bottom: 172px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
 }
 
 .full-width {
@@ -228,7 +233,7 @@ button {
   margin-left: auto;
   margin-bottom: 35px;
   height: 350px;
-  background: url("../img/header-bg.jpeg");
+  background: url("../img/background.jpg");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
