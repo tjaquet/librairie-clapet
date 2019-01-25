@@ -91,8 +91,8 @@ button {
 */
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 120px;
+  margin-right: 120px;
   padding: 0 15px;
   width: 960px;
   max-width: 100%;
@@ -102,6 +102,7 @@ button {
 .text-container {
   margin: auto;
   max-width: 960px;
+  text-align: center;
 }
 
 .columns {
@@ -491,3 +492,7 @@ button {
   text-align: center;
   margin-bottom: 35px;
 }
+
+.colonnes {
+display : flex;
+} 
