@@ -199,8 +199,8 @@ button {
 }
 
 .chapo {
-  width: 960px;
-  height: 116px;
+  width: 600px;
+  height: 87px;
   font-size: 25px;
   font-style: 'Work Sans', sans-serif;
   text-align : center;
@@ -297,7 +297,7 @@ button {
 */
 .separator {
   display: block;
-  margin: 50px auto;
+  margin: 60px auto;
   width: 200px;
   height: 1px;
   border: none;
@@ -311,6 +311,7 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
 }
 
 .honey-pot {
@@ -338,7 +339,7 @@ button {
 }
 
 .honey-pot__thumbnail img {
-  display: block;
+  display: flex;
 }
 
 .honey-pot__title {
@@ -381,29 +382,33 @@ button {
 
 .news__image {
   display: block;
-  width: 100%;
+  width: 285px;
+  height: 232px;
+  object-fit: contain;
 }
 
 .news__date {
   font-family: 'Montserrat', sans-serif;
-  margin: 0;
   font-size: 18px;
   color: #e8a27d;
+  text-align: left;
 }
 
 .news__title {
   font-family: 'Montserrat', sans-serif;
-  margin: 0 0 15px;
   font-weight: bold;
   font-size: 24px;
   line-height: 1.4;
+  text-align: left;
+  margin-bottom: 21px;
+  margin-top: 3px;
 }
 
 .news__text {
   font-family: 'Work Sans', sans-serif;
-  margin: 0;
   font-size: 20px;
   line-height: 1.4;
+  text-align: left;
 }
 
 .page-list .news {
@@ -490,9 +495,13 @@ button {
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 82px;
 }
 
 .colonnes {
 display : flex;
 } 
+
+.colonne-img {
+  min-width: 40%;
+}
