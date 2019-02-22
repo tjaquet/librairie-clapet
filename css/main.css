@@ -96,7 +96,7 @@ button {
   padding: 0 15px;
   width: 960px;
   max-width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .text-container {
@@ -593,6 +593,7 @@ display: grid;
       font-weight: bold;
       margin-top: 0px;
       margin-bottom: 25px;
+      text-align: left;
     }
   
   .news__text__big {
